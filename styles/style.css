@@ -1,4 +1,7 @@
 /* место для вашего кода */
+body {
+    padding: 50px;
+}
 .header{
     display: grid;
     position: relative;
@@ -36,9 +39,8 @@
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 165px, 50px, 50px;
-
-
+    
+    
 }
 
 .overlay{
@@ -47,30 +49,78 @@
     height: 100%;
     background-color: rgb(0 0 0 / 0.6);
 }
-.title {
+.cover__title {
     position: relative;
     width: 100%;
     font-family: Raleway, Arial, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 100px;
     line-height: 115px;
     color: white;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     z-index: 1;
+    padding: 50px;
 }
 
 
-.title__left {
+.aligned-text {
     display: block;
     text-align: left;
+    /* padding: 50px; */
 }
-.title__center {
+.aligned-text_center {
     display: block;
     text-align: center;
 }
     
-.title__right {
+.aligned-text_right {
     display: block;
     text-align: right;
 }  
+
+.cover__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-family: Raleway;
+    color: #fff;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 50px;
+    text-transform: uppercase;'
+}
+
+.cover__description-text {
+    z-index: 2;
+    word-spacing: 15px;
+    justify-self: start;
+    white-space: nowrap;
+    letter-spacing: 90%;
+
+
+}
+
+.bet-button {
+    font-weight: 500;
+    line-height: 25.83px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: transparent;
+    z-index: 2;
+    border: solid 1px #fff;
+    padding: 12px 32px;
+    align-items: end;
+}
+.content__title {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 40px;
+  line-height: 46.96px;
+  
+}
