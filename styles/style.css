@@ -258,7 +258,7 @@ background-image: url(../images/card-lot-01.jpg);
   height: 180px;
   display: grid;
   position: relative;
-  grid-template-columns: repeat(3, 1fr) ;  
+  grid-template-columns: repeat(3, 1fr);
   padding: 181px 50px 82px;
 }
 
