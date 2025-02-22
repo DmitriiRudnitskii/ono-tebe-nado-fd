@@ -5,7 +5,8 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     justify-items: space-between;
-    padding:50px;
+    padding:90px 50px 99px;
+    font-size: 18px;
 }
 .header_logo{
     display: block;
@@ -15,7 +16,7 @@
 }   
 .header__links-list{
     display: flex;
-    gap: 30px;
+    gap: 31px;
     list-style: circle;
 }
 .header__links-list-item_no-bullit {
@@ -24,12 +25,15 @@
 }
 
 .address {
-    max-width: 240px;
-    justify-self: end;
-    
+  position: relative;
+  max-width: 240px;
+  justify-self: end;
+  font-style: normal;
+  gap: 5px;
+  right: 37px;
 }
-.header_logo-image{
-    height: 105px;
+.header__link {
+  line-height: 1.4;
 }
 .cover {
     position: relative;
@@ -49,31 +53,37 @@
 }
 .cover__title {
     position: relative;
-    width: 100%;
     font-weight: bold;
     font-size: 100px;
     line-height: 115px;
     color: #fff;
-    letter-spacing: 30%;
+    letter-spacing: 0.3em;
     text-transform: uppercase;
     z-index: 1;
-    padding: 50px;
+    padding: 50px 50px 30px;
 }
 
 
 .aligned-text {
     display: block;
+    position: relative;
     text-align: left;
-    padding: 50px;
+    top: 115px;
 }
 .aligned-text_center {
     display: block;
+    position: relative;
     text-align: center;
+    top: 19px;
+    left: 15px;
 }
     
 .aligned-text_right {
     display: block;
+    position: relative;
     text-align: right;
+    left: 30px;
+    top:-76px ;
 }  
 
 .cover__description {
@@ -81,23 +91,19 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    font-family: Raleway;
     color: #fff;
     font-weight: normal;
     font-size: 22px;
     line-height: 28px;
-    padding: 50px;
+    padding: 0 50px 50px;
     text-transform: uppercase;
 }
 
 .cover__description-text {
     z-index: 2;
-    word-spacing: 15px;
+    word-spacing: 18px;
     justify-self: start;
     white-space: nowrap;
-    letter-spacing: 90%;
-
-
 }
 
 .bet-button {
